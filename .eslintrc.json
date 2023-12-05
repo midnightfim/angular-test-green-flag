@@ -1,0 +1,18 @@
+{
+  "root": true,
+  "parser": "@angular-eslint/template-parser",
+  "plugins": ["@angular-eslint/eslint-plugin"],
+  "ignorePatterns": ["**/*.ts"],
+  "overrides": [
+    {
+      "files": ["*.ts", "*.tsx", "*.js", "*.jsx"],
+      "rules": {
+        "@angular-eslint/component-selector": "off",
+        "@typescript-eslint/no-unused-vars": ["error"],
+        "@typescript-eslint/no-duplicate-imports": ["error"],
+        "@typescript-eslint/no-explicit-any": ["error"],
+        "@typescript-eslint/no-inferrable-types": ["error"]
+      }
+    }
+  ]
+}
